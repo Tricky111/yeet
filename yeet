@@ -1,0 +1,156 @@
+local function JustTouch( event )
+MovieTextField = math.random (0,36)
+
+
+if MovieTextField == 0 then
+	QwertyTextField = 0 
+	AnswerTextField.text = "0"
+
+	elseif MovieTextField == 1 then
+	QwertyTextField = 1 
+	AnswerTextField.text = "1"
+
+		elseif MovieTextField == 2 then
+			QwertyTextField = 3
+		AnswerTextField.text = "2"
+
+			elseif MovieTextField == 3 then
+QwertyTextField = 3
+		AnswerTextField.text = "3"
+
+				elseif MovieTextField == 4 then
+QwertyTextField = 4
+		AnswerTextField.text = "4"
+
+					elseif MovieTextField == 5 then
+QwertyTextField = 5 
+		AnswerTextField.text = "5"
+
+						elseif MovieTextField == 6 then
+QwertyTextField = 6
+		AnswerTextField.text = "6"
+
+							elseif MovieTextField == 7 then
+QwertyTextField = 7
+		AnswerTextField.text = "7"
+
+								elseif MovieTextField == 8 then
+QwertyTextField = 8
+		AnswerTextField.text = "8"
+
+									elseif MovieTextField== 9 then
+QwertyTextField = 9
+		AnswerTextField.text = "9"
+
+										elseif MovieTextField == 10 then
+QwertyTextField = Q
+		AnswerTextField.text = "Q"
+
+											elseif MovieTextField == 11 then
+QwertyTextField = W
+		AnswerTextField.text = "W"
+
+													elseif MovieTextField == 12 then
+QwertyTextField = E
+		AnswerTextField.text = "E"
+
+														elseif MovieTextField == 13 then
+QwertyTextField = R
+		AnswerTextField.text = "R"
+
+														elseif MovieTextField == 14 then
+QwertyTextField = T
+		AnswerTextField.text = "T"
+
+													elseif MovieTextField == 15 then
+QwertyTextField = Y
+		AnswerTextField.text = "Y"
+
+												elseif MovieTextField == 16 then
+QwertyTextField = U
+		AnswerTextField.text = "U"
+
+											elseif MovieTextField == 17 then
+QwertyTextField = I
+		AnswerTextField.text = "I"
+
+										elseif MovieTextField == 18 then
+										QwertyTextField = O 
+		AnswerTextField.text = "O"
+
+									elseif MovieTextField == 19 then
+									QwertyTextField = P 
+		AnswerTextField.text = "P"
+
+								elseif MovieTextField == 20 then
+								QwertyTextField = A 
+		AnswerTextField.text = "A"
+
+							elseif MovieTextField == 21 then
+							QwertyTextField = S 
+		AnswerTextField.text = "S"
+
+						elseif MovieTextField == 22 then
+						QwertyTextField = D 
+		AnswerTextField.text = "D"
+
+					elseif MovieTextField == 23 then
+					QwertyTextField = F 
+		AnswerTextField.text = "F"
+
+				elseif MovieTextField == 24 then
+				QwertyTextField = G 
+		AnswerTextField.text = "G"
+
+			elseif MovieTextField == 25 then
+			QwertyTextField = H 
+		AnswerTextField.text = "H"
+
+		elseif MovieTextField == 26 then
+		QwertyTextField = J
+		AnswerTextField.text = "J"
+
+			elseif MovieTextField == 27 then
+			QwertyTextField = K 
+		AnswerTextField.text = "K"
+		
+				elseif MovieTextField == 28 then
+				QwertyTextField = L 
+		AnswerTextField.text = "L"
+
+				elseif MovieTextField == 29 then
+				QwertyTextField = Z
+		AnswerTextField.text = "Z"
+
+					elseif MovieTextField == 30 then
+					QwertyTextField = Z
+		AnswerTextField.text = "Z"
+
+						elseif MovieTextField == 31 then
+						QwertyTextField = X
+		AnswerTextField.text = "X"
+
+							elseif MovieTextField == 32 then
+							QwertyTextField = C
+		AnswerTextField.text = "C"
+
+								elseif MovieTextField == 33 then
+								QwertyTextField = V 
+		AnswerTextField.text = "V"
+
+									elseif MovieTextField == 34 then
+									QwertyTextField = B
+		AnswerTextField.text = "B"
+
+										elseif MovieTextField == 35 then
+										QwertyTextField = N
+		AnswerTextField.text = "N"
+
+											elseif MovieTextField == 36 then
+											QwertyTextField = M
+		AnswerTextField.text = "M"
+end
+end
+
+
+Just:addEventListener( "touch", JustTouch )
